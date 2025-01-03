@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(226, 212, 255);
+}
+main {
+  background-color: rgb(255, 255, 255);
+  margin: 68px auto;
+  min-height: 100vh;
+  box-shadow: 0 0 12px -2px black;
+  width: 800px;
+}
+
+a,
+h1,
+h2,
+h3 {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.persistent-header {
+  background-color: rgb(91, 0, 126);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  box-shadow: 0 0 12px -2px black;
+}
+
+.links-list li {
+  display: inline-block;
+}
+
+.links-list a {
+  color: white;
+  padding: 20px;
+}
+
+/* .about-img {
+ 
+} */
+
+.persistent-footer {
+  background-color: rgb(91, 0, 126);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  padding: 25px 3%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
+
+.mission-statement {
+  padding: 10px;
+}
+
+.about-section {
+  min-height: 30vh;
+  padding: 10px;
+}
+
+/* .about-section h2{
+    padding: 0 20px;
+} */
+
+.about-section img,
+.port-section img {
+  height: 20vh;
+}
+
+.about-image-one,
+.about-image-three,
+.port-image-one,
+.port-image-three {
+  float: right;
+}
+
+.about-image-two,
+.port-image-two {
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.port-section {
+  width: 700px;
+  height: 30vh;
+  background: #fafafa;
+  color: #222;
+  box-shadow: 0 3px 6px -2px #000000;
+  margin: 2em auto;
+  padding: 1em;
+}
